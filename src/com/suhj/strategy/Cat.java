@@ -11,6 +11,16 @@ public class Cat implements Comparable<Cat> {
 	
 	private int weight, height;
 	
+	
+	
+	public int getWeight() {
+		return weight;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
 	public Cat(int weight,int height) {
 		this.weight = weight;
 		this.height = height;
