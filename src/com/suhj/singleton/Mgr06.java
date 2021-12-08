@@ -13,7 +13,8 @@ package com.suhj.singleton;
  */
 public class Mgr06 {
 	
-	private static Mgr06 INSTANCE;
+	//防止指令重排问题
+	private static volatile Mgr06 INSTANCE; //JIT
 	
 	private Mgr06() {};
 	
