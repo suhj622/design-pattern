@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.suhj.factory;
+package com.suhj.factoryMethod;
 
 /**
  * @author Haojie

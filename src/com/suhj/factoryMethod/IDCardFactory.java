@@ -1,7 +1,7 @@
-/**
+ /**
  * 
  */
-package com.suhj.factory;
+package com.suhj.factoryMethod;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.suhj.strategy;
+package com.suhj.strategyNew;
 
 import java.util.Arrays;
 

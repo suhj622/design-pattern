@@ -1,4 +1,4 @@
-package com.suhj.singleton;
+package com.suhj.singletonNew;
 
 /**
  * 

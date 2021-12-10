@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.suhj.strategy;
+package com.suhj.strategyNew;
 
 /**
  * @author Haojie
@@ -9,4 +9,8 @@ package com.suhj.strategy;
  */
 public interface Comparator<T> {
 	public abstract int compare(T o1, T o2);
+	
+	default void m() {
+		System.out.println("m");
+	}
 }
