@@ -41,7 +41,7 @@ abstract class Event<T> {
 }
 
 //ÊÂ¼şÀà fire Event
-class WakeUpEvent extends Event {
+class WakeUpEvent extends Event<Child> {
 	long timestamp;
 	String loc;
 	Child source;
